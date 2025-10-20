@@ -280,7 +280,7 @@ for i=3,6 do
     local sample_total = 0
     if (table.getn(ids) > 0) then
         for _, id in ipairs(ids) do
-            local bytes = redis.call("MEMORY", "USAGE", ARGV[1] .. id)
+            local bytes = redis.call("MEMORY", "USAGE", ARGV[1] .. id) or 0
             sample_total = sample_total + bytes
         end
         local n = redis.call("ZCARD", KEYS[i])
