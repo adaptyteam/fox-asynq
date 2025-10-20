@@ -10,13 +10,13 @@ import (
 	"testing"
 	"time"
 
+	"github.com/adaptyteam/fox-asynq/internal/base"
+	"github.com/adaptyteam/fox-asynqx-asynq/internal/rdb"
+	"github.com/adaptyteam/fox-asynqx-asynq/internal/testbroker"
+	h "github.com/adaptyteam/fox-asynqx-asynq/internal/testutil"
+	"github.com/adaptyteam/fox-asynqx-asynq/internal/timeutil"
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"github.com/hibiken/asynq/internal/base"
-	"github.com/hibiken/asynq/internal/rdb"
-	"github.com/hibiken/asynq/internal/testbroker"
-	h "github.com/hibiken/asynq/internal/testutil"
-	"github.com/hibiken/asynq/internal/timeutil"
 )
 
 // Test goes through a few phases.

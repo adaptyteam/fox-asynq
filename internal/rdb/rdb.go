@@ -12,10 +12,10 @@ import (
 	"sync"
 	"time"
 
+	"github.com/adaptyteam/fox-asynq/internal/base"
+	"github.com/adaptyteam/fox-asynqx-asynq/internal/errors"
+	"github.com/adaptyteam/fox-asynqx-asynq/internal/timeutil"
 	"github.com/google/uuid"
-	"github.com/hibiken/asynq/internal/base"
-	"github.com/hibiken/asynq/internal/errors"
-	"github.com/hibiken/asynq/internal/timeutil"
 	"github.com/redis/go-redis/v9"
 	"github.com/spf13/cast"
 )

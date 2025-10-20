@@ -9,10 +9,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/adaptyteam/fox-asynq/internal/base"
+	"github.com/adaptyteam/fox-asynqx-asynq/internal/rdb"
+	h "github.com/adaptyteam/fox-asynqx-asynq/internal/testutil"
 	"github.com/google/go-cmp/cmp"
-	"github.com/hibiken/asynq/internal/base"
-	"github.com/hibiken/asynq/internal/rdb"
-	h "github.com/hibiken/asynq/internal/testutil"
 )
 
 func newCompletedTask(qname, tasktype string, payload []byte, completedAt time.Time) *base.TaskMessage {

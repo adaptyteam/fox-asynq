@@ -10,10 +10,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/adaptyteam/fox-asynq/internal/base"
+	h "github.com/adaptyteam/fox-asynqx-asynq/internal/testutil"
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"github.com/hibiken/asynq/internal/base"
-	h "github.com/hibiken/asynq/internal/testutil"
 	"github.com/redis/go-redis/v9"
 )
 
