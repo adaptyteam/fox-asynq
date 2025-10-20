@@ -1,5 +1,5 @@
-github.com/adaptyteam/fox-asynq v0.0.3 h1:HxJPVKORRg3BCDPNbZx6vwD5EbxvOgT8Y998qTa0pFU=
-github.com/adaptyteam/fox-asynq v0.0.3/go.mod h1:IuuSr17rsGZJQ4C0hnKZI82TCzZT/ABfKUeXSOaOvjE=
+github.com/adaptyteam/fox-asynq v0.0.4 h1:S9gXKvrC/nxOcBbAL3G8FdC/ngEP569WKTOr5Ie8Ebg=
+github.com/adaptyteam/fox-asynq v0.0.4/go.mod h1:ZyQ8LLiFgVtZ8YZ1XEDOka96+God65RV1GJlYWQe8Dc=
 github.com/beorn7/perks v1.0.1 h1:VlbKKnNfV8bJzeqoa4cOKqO6bYr3WgKZxO8Z16+hsOM=
 github.com/beorn7/perks v1.0.1/go.mod h1:G2ZrVWU2WbWT9wwq4/hrbKbnv/1ERSJQ0ibhJ6rlkpw=
 github.com/bsm/ginkgo/v2 v2.12.0 h1:Ny8MWAHyOepLGlLKYmXG4IEkioBysk6GpaRTLC8zwWs=
