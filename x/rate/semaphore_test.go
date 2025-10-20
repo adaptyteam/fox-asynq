@@ -8,10 +8,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/adaptyteam/fox-asynqx-asynq/internal/base"
-	asynqcontext "github.com/adaptyteam/fox-asynqx-asynq/internal/context"
+	asynq "github.com/adaptyteam/fox-asynq"
+	"github.com/adaptyteam/fox-asynq/internal/base"
+	asynqcontext "github.com/adaptyteam/fox-asynq/internal/context"
 	"github.com/google/uuid"
-	"github.com/hibiken/asynq"
 	"github.com/redis/go-redis/v9"
 )
 
