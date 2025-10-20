@@ -12,8 +12,8 @@ import (
 	"time"
 
 	"github.com/adaptyteam/fox-asynq/internal/rdb"
-	"github.com/adaptyteam/fox-asynqx-asynq/internal/testbroker"
-	"github.com/adaptyteam/fox-asynqx-asynq/internal/testutil"
+	"github.com/adaptyteam/fox-asynq/internal/testbroker"
+	"github.com/adaptyteam/fox-asynq/internal/testutil"
 
 	"github.com/redis/go-redis/v9"
 	"go.uber.org/goleak"

@@ -13,7 +13,7 @@ import (
 	"github.com/redis/go-redis/v9"
 
 	"github.com/adaptyteam/fox-asynq/internal/base"
-	"github.com/adaptyteam/fox-asynqx-asynq/internal/testutil"
+	"github.com/adaptyteam/fox-asynq/internal/testutil"
 )
 
 func TestSchedulerRegister(t *testing.T) {

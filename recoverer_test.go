@@ -10,8 +10,8 @@ import (
 	"time"
 
 	"github.com/adaptyteam/fox-asynq/internal/base"
-	"github.com/adaptyteam/fox-asynqx-asynq/internal/rdb"
-	h "github.com/adaptyteam/fox-asynqx-asynq/internal/testutil"
+	"github.com/adaptyteam/fox-asynq/internal/rdb"
+	h "github.com/adaptyteam/fox-asynq/internal/testutil"
 	"github.com/google/go-cmp/cmp"
 )
 

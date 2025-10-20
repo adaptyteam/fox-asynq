@@ -16,10 +16,10 @@ import (
 	"unicode/utf8"
 
 	"github.com/MakeNowJust/heredoc/v2"
-	"github.com/adaptyteam/fox-asynqx-asynq/internal/base"
-	"github.com/adaptyteam/fox-asynqx-asynq/internal/rdb"
+	asynq "github.com/adaptyteam/fox-asynq"
+	"github.com/adaptyteam/fox-asynq/internal/base"
+	"github.com/adaptyteam/fox-asynq/internal/rdb"
 	"github.com/fatih/color"
-	"github.com/hibiken/asynq"
 	"github.com/redis/go-redis/v9"
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
@@ -59,7 +59,7 @@ var rootCmd = &cobra.Command{
 		$ asynq task list --queue=myqueue --state=archived`),
 	Annotations: map[string]string{
 		"help:feedback": heredoc.Doc(`
-			Open an issue at https://github.com/adaptyteam/fox-asynqx-asynq/issues/new/choose`),
+			Open an issue at https://github.com/adaptyteam/fox-asynq/issues/new/choose`),
 	},
 }
 

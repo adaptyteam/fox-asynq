@@ -11,10 +11,10 @@ import (
 	"time"
 
 	"github.com/adaptyteam/fox-asynq/internal/base"
-	"github.com/adaptyteam/fox-asynqx-asynq/internal/rdb"
-	"github.com/adaptyteam/fox-asynqx-asynq/internal/testbroker"
-	h "github.com/adaptyteam/fox-asynqx-asynq/internal/testutil"
-	"github.com/adaptyteam/fox-asynqx-asynq/internal/timeutil"
+	"github.com/adaptyteam/fox-asynq/internal/rdb"
+	"github.com/adaptyteam/fox-asynq/internal/testbroker"
+	h "github.com/adaptyteam/fox-asynq/internal/testutil"
+	"github.com/adaptyteam/fox-asynq/internal/timeutil"
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
 )

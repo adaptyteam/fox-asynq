@@ -11,8 +11,8 @@ import (
 	"time"
 
 	"github.com/adaptyteam/fox-asynq/internal/base"
-	"github.com/adaptyteam/fox-asynqx-asynq/internal/log"
-	"github.com/adaptyteam/fox-asynqx-asynq/internal/rdb"
+	"github.com/adaptyteam/fox-asynq/internal/log"
+	"github.com/adaptyteam/fox-asynq/internal/rdb"
 	"github.com/google/uuid"
 	"github.com/redis/go-redis/v9"
 	"github.com/robfig/cron/v3"

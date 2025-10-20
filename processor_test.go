@@ -15,11 +15,11 @@ import (
 	"time"
 
 	"github.com/adaptyteam/fox-asynq/internal/base"
-	"github.com/adaptyteam/fox-asynqx-asynq/internal/errors"
-	"github.com/adaptyteam/fox-asynqx-asynq/internal/log"
-	"github.com/adaptyteam/fox-asynqx-asynq/internal/rdb"
-	h "github.com/adaptyteam/fox-asynqx-asynq/internal/testutil"
-	"github.com/adaptyteam/fox-asynqx-asynq/internal/timeutil"
+	"github.com/adaptyteam/fox-asynq/internal/errors"
+	"github.com/adaptyteam/fox-asynq/internal/log"
+	"github.com/adaptyteam/fox-asynq/internal/rdb"
+	h "github.com/adaptyteam/fox-asynq/internal/testutil"
+	"github.com/adaptyteam/fox-asynq/internal/timeutil"
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
 )
@@ -225,7 +225,7 @@ func TestProcessorSuccessWithMultipleQueues(t *testing.T) {
 	}
 }
 
-// https://github.com/adaptyteam/fox-asynqx-asynq/issues/166
+// https://github.com/adaptyteam/fox-asynq/issues/166
 func TestProcessTasksWithLargeNumberInPayload(t *testing.T) {
 	r := setup(t)
 	defer r.Close()

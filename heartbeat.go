@@ -10,8 +10,8 @@ import (
 	"time"
 
 	"github.com/adaptyteam/fox-asynq/internal/base"
-	"github.com/adaptyteam/fox-asynqx-asynq/internal/log"
-	"github.com/adaptyteam/fox-asynqx-asynq/internal/timeutil"
+	"github.com/adaptyteam/fox-asynq/internal/log"
+	"github.com/adaptyteam/fox-asynq/internal/timeutil"
 	"github.com/google/uuid"
 )
 

@@ -10,7 +10,7 @@ import (
 	"time"
 
 	"github.com/adaptyteam/fox-asynq/internal/base"
-	"github.com/adaptyteam/fox-asynqx-asynq/internal/log"
+	"github.com/adaptyteam/fox-asynq/internal/log"
 )
 
 // An aggregator is responsible for checking groups and aggregate into one task

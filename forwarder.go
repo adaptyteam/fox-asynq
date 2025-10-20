@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/adaptyteam/fox-asynq/internal/base"
-	"github.com/adaptyteam/fox-asynqx-asynq/internal/log"
+	"github.com/adaptyteam/fox-asynq/internal/log"
 )
 
 // A forwarder is responsible for moving scheduled and retry tasks to pending state

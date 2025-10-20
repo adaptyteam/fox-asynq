@@ -13,8 +13,8 @@ import (
 	"time"
 
 	"github.com/adaptyteam/fox-asynq/internal/base"
-	"github.com/adaptyteam/fox-asynqx-asynq/internal/errors"
-	"github.com/adaptyteam/fox-asynqx-asynq/internal/timeutil"
+	"github.com/adaptyteam/fox-asynq/internal/errors"
+	"github.com/adaptyteam/fox-asynq/internal/timeutil"
 	"github.com/google/uuid"
 	"github.com/redis/go-redis/v9"
 	"github.com/spf13/cast"

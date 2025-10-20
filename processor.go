@@ -17,10 +17,10 @@ import (
 	"time"
 
 	"github.com/adaptyteam/fox-asynq/internal/base"
-	asynqcontext "github.com/adaptyteam/fox-asynqx-asynq/internal/context"
-	"github.com/adaptyteam/fox-asynqx-asynq/internal/errors"
-	"github.com/adaptyteam/fox-asynqx-asynq/internal/log"
-	"github.com/adaptyteam/fox-asynqx-asynq/internal/timeutil"
+	asynqcontext "github.com/adaptyteam/fox-asynq/internal/context"
+	"github.com/adaptyteam/fox-asynq/internal/errors"
+	"github.com/adaptyteam/fox-asynq/internal/log"
+	"github.com/adaptyteam/fox-asynq/internal/timeutil"
 	"golang.org/x/time/rate"
 )
 

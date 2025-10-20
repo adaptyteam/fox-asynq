@@ -15,8 +15,8 @@ import (
 	"time"
 
 	"github.com/adaptyteam/fox-asynq/internal/errors"
-	pb "github.com/adaptyteam/fox-asynqx-asynq/internal/proto"
-	"github.com/adaptyteam/fox-asynqx-asynq/internal/timeutil"
+	pb "github.com/adaptyteam/fox-asynq/internal/proto"
+	"github.com/adaptyteam/fox-asynq/internal/timeutil"
 	"github.com/redis/go-redis/v9"
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/types/known/timestamppb"

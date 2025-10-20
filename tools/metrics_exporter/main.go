@@ -6,8 +6,8 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/adaptyteam/fox-asynqx-asynq/x/metrics"
-	"github.com/hibiken/asynq"
+	asynq "github.com/adaptyteam/fox-asynq"
+	"github.com/adaptyteam/fox-asynq/x/metrics"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/collectors"
 	"github.com/prometheus/client_golang/prometheus/promhttp"

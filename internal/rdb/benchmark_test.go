@@ -11,7 +11,7 @@ import (
 	"time"
 
 	"github.com/adaptyteam/fox-asynq/internal/base"
-	"github.com/adaptyteam/fox-asynqx-asynq/internal/testutil"
+	"github.com/adaptyteam/fox-asynq/internal/testutil"
 )
 
 func BenchmarkEnqueue(b *testing.B) {

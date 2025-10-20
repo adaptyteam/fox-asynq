@@ -8,8 +8,8 @@ import (
 	"os"
 	"time"
 
+	asynq "github.com/adaptyteam/fox-asynq"
 	"github.com/gdamore/tcell/v2"
-	"github.com/hibiken/asynq"
 )
 
 // keyEventHandler handles keyboard events and updates the state.

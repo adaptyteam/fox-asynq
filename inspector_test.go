@@ -13,9 +13,9 @@ import (
 	"time"
 
 	"github.com/adaptyteam/fox-asynq/internal/base"
-	"github.com/adaptyteam/fox-asynqx-asynq/internal/rdb"
-	h "github.com/adaptyteam/fox-asynqx-asynq/internal/testutil"
-	"github.com/adaptyteam/fox-asynqx-asynq/internal/timeutil"
+	"github.com/adaptyteam/fox-asynq/internal/rdb"
+	h "github.com/adaptyteam/fox-asynq/internal/testutil"
+	"github.com/adaptyteam/fox-asynq/internal/timeutil"
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
 	"github.com/google/uuid"

@@ -11,7 +11,7 @@ import (
 	"time"
 
 	"github.com/adaptyteam/fox-asynq/internal/base"
-	h "github.com/adaptyteam/fox-asynqx-asynq/internal/testutil"
+	h "github.com/adaptyteam/fox-asynq/internal/testutil"
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
 	"github.com/redis/go-redis/v9"

@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/adaptyteam/fox-asynq/internal/base"
-	"github.com/adaptyteam/fox-asynqx-asynq/internal/log"
+	"github.com/adaptyteam/fox-asynq/internal/log"
 )
 
 // healthchecker is responsible for pinging broker periodically
